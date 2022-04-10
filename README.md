@@ -1,2 +1,2 @@
 # hello10fheroku
-mittudomén
+https://felveteliapp.herokuapp.com/
