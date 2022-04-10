@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from APP.views import felvitel, megnezes
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('',megnezes),
+    path('felvitel/',felvitel),
 ]
